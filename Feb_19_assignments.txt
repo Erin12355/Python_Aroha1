@@ -1,0 +1,73 @@
+Feb 19th assignments
+======================
+use if else....and or etc...
+use user defined functions for this...dono just write everything in one BLOCK
+
+1) Given the electricity bill rates 
+  input the initial meter reading
+  input the final meter reading
+  input the category
+  final - initial is the unit consumed, based on that calculate the 
+  bill. ONLY In domestic catg if the residence has Solar installation then
+  give 10% discount on the bill which is above 2000/-
+
+  for Domestic catg
+     0 to 1000    1.75 per unit 
+   1001 to 2500	  2.50 per unit 
+   2501 to 4500   3.70 per unit 
+   4501 onwards   5.25 per unit
+
+ for Commercial catg
+     0 to 2200    2.75 per unit 
+   2201 to 4500	  3.75 per unit 
+   4501 to 7000   4.90 per unit 
+   7001 onwards   6.40 per unit
+   add 15.5% GST for the bill generated.
+   in commercial catg if the unit consumed is above 8000 then put a fine amount of
+   5% on the bill amount after computing the GST.
+
+2) generate 100 random numbers between 1 to 1000
+   store them in the list
+   find the sum, avg, max,min
+   How many numbers are 3 digits
+   How many are 2 digits number
+   which is the highest 2 digit number and lowest 2 digit numbers
+3) Given the price list 
+   1) Tea/Coffee     Rs 15 per cup
+   2) Snacks type I  Rs 30 per plate
+   3) Snacks type II Rs 42 per plate
+   4) Executive Meals Rs 85 per plate
+   5) Spl Meals       Rs 120 per plate
+   ask the user what is needed
+   The input can be like this
+   item the user will type the item number : then qty required and so on
+   finally :B means Bill the items ordered
+   no. item no.
+   |   | 
+   2:3:1:4:B
+     |   |
+     |  how much qty
+     |  needed 
+    how much 
+    qty
+   
+   At that time the bill should be generated
+  
+   store the customer mobile number and the bill amount in the set
+   like this (just shown the set contains tuple)
+   Also ask the customer catg which could be D for Defence S for Sr Citizen
+   if it neither then he/she is regular customer.
+   'D' means the customer is Defence personel and they get 10% discount on the bill
+   'S' means the customer is Senior Citizen and they get 4% discount on the bill
+                tuple             tuple              tuple
+   hotel = { (9667789090,350),(9131402245,450,'D'),(9131402666,225,'S') }
+   Keep on inputing and storing in the tuple and then into the set till the user says
+   EXIT to stop
+   then iterate the set and display the ouput like this....
+   Mob No.    Bill amt   Customer catg
+   9667789090  350        Regular
+   9131402245  450        Defence
+   9131402666  225        Sr. Citizen
+   ....
+   ..... 
+*******
