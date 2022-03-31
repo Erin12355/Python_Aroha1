@@ -1,0 +1,46 @@
+Feb 17th assignments
+=====================
+no list, tuple, set
+1) Input 8 numbers. 
+   add all the numbers, display the total and avg.
+   add the first number and the last number and display the sum
+   display the middle number ie. in the eight it is fourth number which you input
+   if the numbers to input was 11 then 11/2 5.5 rounded to 5 will be the middle
+ number
+
+2)  input a string. Find out how many vowels are there
+    Print out the frequency of the vowels for example
+    a 10
+    e  4
+    i 12
+    o  3
+    u  1
+    consider the string as one case (say) lowercase
+
+3)  input two strings like this  '1234'  and '4567'
+    convert them to int , add them
+    apply the same using float   say if the input is '45.33' and '234.99'
+    add them converting to float
+
+4)  Currency denomination are
+    GIVEN 2000 500  200 100 50 20 10 5
+     input the article price say 880
+     customer pays 2000 Rs
+     balance is 2000 - 880 =  1120
+     1120 can be paid in what ways ? display like this...
+     500 x 2 =  1000
+     200 x 0 =     0
+     100 x 1 =   100
+      50 x 0 =     0
+      20 x 1 =    20
+      10 x 0 =     0
+    -------------------
+                 1120
+    -------------------
+
+5)  input 6 names and marks
+    display the name whose marks is the highest and lowest
+
+
+                  
+        
