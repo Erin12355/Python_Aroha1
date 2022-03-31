@@ -1,0 +1,58 @@
+Feb 15 assignments
+===================
+(no list , tuple or set to be used. no arrays)
+
+1. input 4 numbers
+   arrange in ASC order
+   input is 1 4 3 2 
+   output  1 2 3 4
+2. no date utulity should be used for this.
+   handle leap year
+   input day , month and year
+   display whether the date is VALID or not valid
+                      Msg
+   input 31 6 2022    invalid date
+   input 32 3 2022    invalid date day should be less than 32
+   input 29 2 2022    invalid 2022 is not leap year
+   input 31 10 2020   VALID
+   input 10 13 2022   invalid month must be less than 13
+   and so on
+
+no tuple, list , set etc....
+3. using while loop , input numbers till the user type -1 
+   -1 is to STOP
+    add all the inputted numbers and display the total
+    find the avg
+    find which number is the highest , second highest
+    find which number is the lowest , second lowest
+    find how many numbers are divisble by 5 as well as 7
+    find how many ODD numbers are NOT divisble by 3
+
+4. use for loop , while loop if need be    
+   generate all the PRIME numbers in the given range
+   (say)  150 to 646
+
+5. print the following pattern 
+   1
+   2 3 
+   4 5 6 7
+   8 9 10 11
+
+   also
+   A
+   B C 
+   D E F
+   G H I J
+
+   also
+   100
+   98 96
+   94 92 90
+   88 86 84 82
+   80
+   78 76
+   74 72 70
+   68 66 64 62
+
+************
+
