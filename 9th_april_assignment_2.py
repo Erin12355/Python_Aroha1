@@ -146,7 +146,21 @@
 #     names_set=set()
 #     count=l_name=0
 #     while True:
-#         n=input("Enter the name: or 'STOP' to exit \n")
+#         while True:
+#             flag=False
+#             n=input("Enter the name: or 'STOP' to exit \n")
+#             if len(n)>0:
+#                 for i in n:
+#                     if i>='a' and i<='z' or i>='A' and i<='Z':
+#                         pass
+#                     else:
+#                         flag=True
+#                 if flag==True:
+#                     print("Invalid name cannot contain number and character ")
+#                 else :
+#                     break
+#             else:
+#                 print('Name cannot be empty!! enter again')
 #         names_set.add(n)
 #         if n=='STOP':
 #             break
