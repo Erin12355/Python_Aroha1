@@ -63,22 +63,22 @@
 #         while True:
 #             try:
 #                 self.year=input("Enter year in number (eg:2000) \n")
-#                 self.day=input("Enter Day number (eg: 15)\n")
+#                 self.day=input("Enter Day in number (eg: 15)\n")
 #                 self.month=input("Enter month in number (eg: 12)\n")
 #                 self.due_date=datetime(int(self.year),int(self.month),int(self.day))
 #                 break
 #             except:
 #                 print("Invalid date Enter again!")
 #         self.today = datetime.now()
-#         print("today",self.today)
-#         print("due",self.due_date)
+#         print("today: ",self.today)
+#         print("due date:",self.due_date)
 #         if self.today>self.due_date:
 #            self.due=True
-#            print("due")
+#            print("Customer is after due date ")
 #         else:
 #             self.due=False
-#             print("not")
-#         print(self.year,self.day,self.month)
+#             print("Customer is before due date ")
+#         # print(self.year,self.day,self.month)
 # class MeterCal(Category):
 #     def __init__(self,initial,final):
 #         self.initial=initial
@@ -122,53 +122,53 @@
 # #    how many numbers are divisible by BOTH 3 as well as 4
 # #    add the FIRST and the LAST number of the range and print the sum
 
-def numbers():
-    while True:
-        try:
-            ini=int(input("Enter the Initial number \n"))
-            break
-        except:
-            print("INVALID INPUT !! Enter again")
-    while True:
-        try:   
-            fin=int(input("Enter the Final number \n"))
-            break
-        except:
-            print("INVALID INPUT!! Enter again ")
-    return ini,fin
-ini,fin=numbers()
-def display_range(ini,fin):
-    n_div_7=0
-    div_3_4=0
-    sum=ini+fin
-    prime=0
-    step=end=0
-    if ini>fin:
-        step=-1
-        end=fin-1
-    else:
-        step=1
-        end=fin+1
-    for i in range(ini,end,step):
-        flag=False
-        print(i,end=" ")
-        if i%7!=0:
-            n_div_7+=1
-        if i%3==0 and i%4==0:
-            div_3_4+=1
-        for j in range(2,i):
-            if i%j==0:
-                flag=True
-                break
-        if flag==False:
-            prime+=1
-    return div_3_4,n_div_7,sum,prime
-div_3_4,n_div_7,sum,prime=display_range(ini,fin)
-print()
-print("divisible by BOTH 3 as well as 4 : ",div_3_4)
-print("not divisible by 7 : ",n_div_7)
-print("Sum of the FIRST and the LAST number of the range : ",sum)
-print("prime numbers in that range : ",prime)
+# def numbers():
+#     while True:
+#         try:
+#             ini=int(input("Enter the Initial number \n"))
+#             break
+#         except:
+#             print("INVALID INPUT !! Enter again")
+#     while True:
+#         try:   
+#             fin=int(input("Enter the Final number \n"))
+#             break
+#         except:
+#             print("INVALID INPUT!! Enter again ")
+#     return ini,fin
+# ini,fin=numbers()
+# def display_range(ini,fin):
+#     n_div_7=0
+#     div_3_4=0
+#     sum=ini+fin
+#     prime=0
+#     step=end=0
+#     if ini>fin:
+#         step=-1
+#         end=fin-1
+#     else:
+#         step=1
+#         end=fin+1
+#     for i in range(ini,end,step):
+#         flag=False
+#         print(i,end=" ")
+#         if i%7!=0:
+#             n_div_7+=1
+#         if i%3==0 and i%4==0:
+#             div_3_4+=1
+#         for j in range(2,i):
+#             if i%j==0:
+#                 flag=True
+#                 break
+#         if flag==False:
+#             prime+=1
+#     return div_3_4,n_div_7,sum,prime
+# div_3_4,n_div_7,sum,prime=display_range(ini,fin)
+# print()
+# print("divisible by BOTH 3 as well as 4 : ",div_3_4)
+# print("not divisible by 7 : ",n_div_7)
+# print("Sum of the FIRST and the LAST number of the range : ",sum)
+# print("prime numbers in that range : ",prime)
 
 # #---------------------------------------------------------------------------------------------------------------
 
