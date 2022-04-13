@@ -13,33 +13,36 @@
 # #    find the avg of all the list1 elements
 # #    how many numbers are above the avg ?
 
-# from statistics import mean
-# def num_set(num1):
-#     highest=max(num1)
-#     lowest=min(num1)
-#     average=mean(num1)
-#     print("Highest number from the given set is : ",highest)
-#     print("Lowest number from the given set : ",lowest)
-#     print("Average number is : ",average)
-# def num_set2(num1,num2):
-#     num1_lst=list(num1)
-#     num_add=num1_lst+num2
-#     hig=0
-#     low=float('inf')
-#     for i in num_add[-5:]:
-#         if i>hig:
-#             hig=i
-#     print(hig)
-#     for j in num1_lst[0:6]:
-#         if j<low:
-#             low=j
-#     print(low)
-#     average=mean(num1)
-#     print(average)
-# num1={11,2,33,44,99}
-# num2=[89,23,67,22,100,105,15]
-# num_set(num1)
-# num_set2(num1,num2)
+from statistics import mean
+def num_set(num1):
+    highest=max(num1)
+    lowest=min(num1)
+    average=mean(num1)
+    print("Highest number from the given set is : ",highest)
+    print("Lowest number from the given set : ",lowest)
+    print("Average number is : ",average)
+def num_set2(num1,num2):
+    num1_lst=list(num1)
+    num_add=num1_lst+num2
+    hig=0
+    low=float('inf')
+    for i in num_add[-5:]:
+        if i>hig:
+            hig=i
+    print(hig)
+    for j in num1_lst[0:6]:
+        if j<low:
+            low=j
+    print(low)
+    average=mean(num1)
+    print(average)
+num1={11,2,33,44,99}
+num2=[89,23,67,22,100,105,15]
+num_set(num1)
+num_set2(num1,num2)
+
+while True:
+    
 
 # # 3) st1 = {'Java','Python','C'}
 # #    st2 = {'SQL','Java','C#','Python'}

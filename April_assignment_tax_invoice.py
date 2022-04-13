@@ -26,12 +26,13 @@ while True:
                 pass
             else:
                 flag=True
+        if flag==True:
+            print("Name Cannot contain Number and character !!")
+        else: 
+            break
     else:
         print("Enter name !! Name field cannot be empty ")
-    if flag==True:
-        print("Name Cannot contain Number and character !!")
-    else: 
-        break    
+        
 items={}
 total_qty=0
 #----while loop because run until the process  is complete------
