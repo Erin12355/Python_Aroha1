@@ -133,6 +133,18 @@
 #         print(j)
 # print(lst[-10:])
 
+class Word_file:
+    def __init__(self):
+        self.file=open('D:\Aroha_Tech\python_vishwanath\oops\Python_Aroha1\Python_Aroha1\motivational.txt','r')
+        self.f=self.file.read()
+        self.lst=self.f.split(' ')
+    def word_count(self):
+        length=''
+        for i in self.lst:
+            if len(i)>len(length):
+                length=i
+
+
 # #---------------------------------------------------------------------------------------------------------
 
 # # 3. Store 'n' names in the a set (till the user types STOP), 

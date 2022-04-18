@@ -52,3 +52,20 @@
 #             print("Decline, no repeated word !!")
 # obj=Str_chk()
 # obj.chk()
+
+
+def str_check(stri):
+    flag=False
+    len_stri=len(stri)
+    for i in range(len_stri-1):
+        if (stri[i]==stri[i+1]):
+            if (stri[i+1]!=stri[i+2]):
+                flag=True 
+                break
+            break
+    if flag==True:
+        return True
+    else:
+        return False
+stri=input("Enter the word: \n")
+print(str_check(stri))
