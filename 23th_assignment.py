@@ -115,7 +115,7 @@
 #     print('Average of the last 10 highest in odd set : ',odd_sum/10)
 # demo(randomlist)
 
-
+  
 # # 4) input the sentence into a string
 # #    convert the sentence into upper case
 # #    use the converted upper case string for the following...
