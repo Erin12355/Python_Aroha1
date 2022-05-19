@@ -84,3 +84,4 @@
 #     print("After sorting st2 : ")
 #     print(st2)
 # set_exe(st1,st2,st3)
+print("hello")
